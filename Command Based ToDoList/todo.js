@@ -19,8 +19,8 @@ while (choice.toLowerCase() != "quit") {
             const deleted = list.splice(1, index);
             console.log("Entry has been deleted")
         }
-        if (index > list.length || index < 1) {
-            console.log("Invalid Index")
+        else{
+            console.log("Unknown Index");
         }
     }
     choice = prompt("Please Enter one of the options");
